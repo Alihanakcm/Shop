@@ -1,0 +1,11 @@
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\bin\Debug\netcoreapp3.1\Shop.Northwind.Entities.deps.json
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\bin\Debug\netcoreapp3.1\Shop.Northwind.Entities.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\bin\Debug\netcoreapp3.1\Shop.Northwind.Entities.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\bin\Debug\netcoreapp3.1\Shop.Core.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\bin\Debug\netcoreapp3.1\Shop.Core.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\obj\Debug\netcoreapp3.1\Shop.Northwind.Entities.csprojAssemblyReference.cache
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\obj\Debug\netcoreapp3.1\Shop.Northwind.Entities.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\obj\Debug\netcoreapp3.1\Shop.Northwind.Entities.AssemblyInfo.cs
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\obj\Debug\netcoreapp3.1\Shop.Northwind.Entities.csproj.CopyComplete
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\obj\Debug\netcoreapp3.1\Shop.Northwind.Entities.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.Entities\obj\Debug\netcoreapp3.1\Shop.Northwind.Entities.pdb

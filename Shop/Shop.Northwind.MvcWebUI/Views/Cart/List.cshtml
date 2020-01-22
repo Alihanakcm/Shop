@@ -1,0 +1,51 @@
+﻿@model Shop.Northwind.MvcWebUI.CartSummaryViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<h2>Cart Details</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Product Name</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Quantity</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @Model.Cart.CartLines)
+        {
+            <tr>
+                <td>@item.Product.ProductName</td>
+                <td>@item.Product.UnitPrice</td>
+                <td>@item.Quantity</td>
+                <td class="text-right"><a class="btn btn-sm btn-danger" asp-controller="Cart" asp-action="RemoveFromCart" asp-route-productId="@item.Product.ProductId"><span class="glyphicon glyphicon-remove-circle"></span>Remove from cart</a></td>
+            </tr>
+        }
+        <tr>
+            <td>
+               
+            </td>
+            <td></td>
+            <td>
+                <h3>Total</h3>
+            </td>
+            <td>
+                <h3><strong>@Model.Cart.Total</strong></h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-outline-success">Continue Shopping</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <a asp-controller="Cart" asp-action="CompleteShopping" class="btn btn-md btn-success">Go to checkout<span></span></a>
+            </td>
+        </tr>
+    </tbody>
+</table>

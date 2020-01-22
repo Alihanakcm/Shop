@@ -1,0 +1,15 @@
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Northwind.Business.deps.json
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Northwind.Business.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Northwind.Business.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Core.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Northwind.Entities.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Northwind.Entities.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\bin\Debug\netcoreapp3.1\Shop.Core.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\obj\Debug\netcoreapp3.1\Shop.Northwind.Business.csprojAssemblyReference.cache
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\obj\Debug\netcoreapp3.1\Shop.Northwind.Business.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\obj\Debug\netcoreapp3.1\Shop.Northwind.Business.AssemblyInfo.cs
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\obj\Debug\netcoreapp3.1\Shop.Northwind.Business.csproj.CopyComplete
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\obj\Debug\netcoreapp3.1\Shop.Northwind.Business.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.Business\obj\Debug\netcoreapp3.1\Shop.Northwind.Business.pdb

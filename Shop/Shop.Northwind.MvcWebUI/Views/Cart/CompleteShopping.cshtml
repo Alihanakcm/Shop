@@ -1,0 +1,57 @@
+﻿@model Shop.Northwind.MvcWebUI.ShippinDetailsviewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/_Layout.cshtml";
+}
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["message"]
+    </div>
+}
+@if (TempData["checkBox"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["checkBox"]
+    </div>
+}
+<h2>Shipping Details</h2>
+<form asp-controller="Cart" asp-action="CompleteShopping">
+    <div class="form-group">
+        <label asp-for="@Model.ShippingDetail.FirstName">First Name</label>
+        <input asp-for="ShippingDetail.FirstName" type="text" class="form-control" id="firstName">
+        <span class="text-danger" asp-validation-for="ShippingDetail.FirstName"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.ShippingDetail.LastName">Last Name</label>
+        <input asp-for="@Model.ShippingDetail.LastName" type="text" class="form-control" id="lastName">
+        <span class="text-danger" asp-validation-for="ShippingDetail.LastName"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.ShippingDetail.Email">E-mail</label>
+        <input asp-for="@Model.ShippingDetail.Email" type="email                                                                                                                                                  " class="form-control" id="Email">
+        <span class="text-danger" asp-validation-for="ShippingDetail.Email"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.ShippingDetail.City">City</label>
+        <input asp-for="@Model.ShippingDetail.City" type="text" class="form-control" id="City">
+        <span class="text-danger" class="text-danger" asp-validation-for="ShippingDetail.City"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.ShippingDetail.District">District</label>
+        <input asp-for="@Model.ShippingDetail.District" type="text" class="form-control" id="District">
+        <span class="text-danger" asp-validation-for="ShippingDetail.District"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.ShippingDetail.Address">Address</label>
+        <input asp-for="@Model.ShippingDetail.Address" type="text" class="form-control" id="Address">
+        <span class="text-danger" asp-validation-for="ShippingDetail.Address"></span>
+    </div>
+    <div class="form-group form-check">
+        <input asp-for="@Model.ShippingDetail.CheckMeOut" type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label asp-for="@Model.ShippingDetail.CheckMeOut" class="form-check-label" for="exampleCheck1">I have read and accept the agreement</label>
+        <span class="text-danger" asp-validation-for="@Model.ShippingDetail.CheckMeOut"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Complete Shipping</button>
+</form>

@@ -1,0 +1,47 @@
+﻿@model Shop.Northwind.MvcWebUI.CategoryListViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "../_Layout";
+}
+
+<h2>Categories</h2>
+<br />
+<a class="btn btn-success" asp-controller="Manage" asp-action="AddCategory">Add a new category</a>
+<br />
+<br />
+@if (TempData["add"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["add"]
+    </div>
+}
+@if (TempData["delete"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["delete"]
+    </div>
+}
+<br />
+<div class="table-responsive">
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Category Id</th>
+                <th scope="col">Category Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model.Categories)
+            {
+                <tr>
+                    <td>@category.CategoryId</td>
+                    <td>@category.CategoryName</td>
+                    <td><a class="btn btn-sm btn-danger" asp-controller="Manage" asp-action="DeleteCategory" asp-route-categoryId="@category.CategoryId">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

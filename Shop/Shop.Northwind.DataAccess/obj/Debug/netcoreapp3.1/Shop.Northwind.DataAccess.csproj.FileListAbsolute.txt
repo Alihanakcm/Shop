@@ -1,0 +1,13 @@
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.deps.json
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Shop.Core.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Shop.Northwind.Entities.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Shop.Northwind.Entities.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\bin\Debug\netcoreapp3.1\Shop.Core.pdb
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\obj\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.csprojAssemblyReference.cache
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\obj\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\obj\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.AssemblyInfo.cs
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\obj\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.csproj.CopyComplete
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\obj\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.dll
+D:\Visual Studio Projects\Shop\Shop.Northwind.DataAccess\obj\Debug\netcoreapp3.1\Shop.Northwind.DataAccess.pdb

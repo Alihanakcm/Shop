@@ -1,0 +1,8 @@
+D:\Visual Studio Projects\Shop\Shop.Core\bin\Debug\netcoreapp3.1\Shop.Core.deps.json
+D:\Visual Studio Projects\Shop\Shop.Core\bin\Debug\netcoreapp3.1\Shop.Core.dll
+D:\Visual Studio Projects\Shop\Shop.Core\bin\Debug\netcoreapp3.1\Shop.Core.pdb
+D:\Visual Studio Projects\Shop\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\Shop\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.AssemblyInfo.cs
+D:\Visual Studio Projects\Shop\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.dll
+D:\Visual Studio Projects\Shop\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.pdb
+D:\Visual Studio Projects\Shop\Shop.Core\obj\Debug\netcoreapp3.1\Shop.Core.csprojAssemblyReference.cache

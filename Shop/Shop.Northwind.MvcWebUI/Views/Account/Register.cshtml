@@ -1,0 +1,57 @@
+﻿@model Shop.Northwind.MvcWebUI.RegisterViewModel
+
+@{
+    Layout = "~/Views/_Layout.cshtml";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    @if (TempData["message"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["message"]
+        </div>
+    }
+    <div>
+        <form asp-controller="Account" asp-action="Register" method="post">
+            <div class="form-group">
+                <label asp-for="@Model.UserName">Username</label>
+                <input asp-for="@Model.UserName" type="text" class="form-control" id="UserName">
+                <span class="text-danger" asp-validation-for="UserName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.FirstName">First Name</label>
+                <input asp-for="@Model.FirstName" type="text" class="form-control" id="firstName">
+                <span class="text-danger" asp-validation-for="FirstName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.LastName">LastName</label>
+                <input asp-for="@Model.LastName" type="text" class="form-control" id="LastName">
+                <span class="text-danger" asp-validation-for="LastName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Email">E-mail</label>
+                <input asp-for="@Model.Email" type="email" class="form-control" id="Email">
+                <span class="text-danger" asp-validation-for="Email"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Password">Password</label>
+                <input asp-for="@Model.Password" type="text" class="form-control" id="Password">
+                <span class="text-danger" asp-validation-for="Password"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.ConfirmPassword">Confirm Password</label>
+                <input asp-for="@Model.ConfirmPassword" type="text" class="form-control" id="ConfirmPassword">
+                <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+            </div>
+            <button type="submit" class="btn btn-success">Register</button>
+        </form>
+    </div>
+</body>
+</html>

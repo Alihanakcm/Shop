@@ -1,0 +1,16 @@
+﻿@model Shop.Northwind.MvcWebUI.Areas.Admin.Models.CategoryAddViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "../_Layout";
+}
+
+<h2>Add a new category</h2>
+<form asp-controller="Manage" asp-action="AddCategory" method="post">
+    <div class="form-group">
+        <label asp-for="@Model.Category.CategoryName">Email address</label>
+        <input asp-for="Category.CategoryName" type="text" class="form-control" id="categoryName">
+        <span></span>
+    </div>
+    <button type="submit" class="btn btn-success">Add</button>
+</form>

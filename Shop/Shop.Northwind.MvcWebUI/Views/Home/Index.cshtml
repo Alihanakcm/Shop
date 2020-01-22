@@ -1,0 +1,58 @@
+﻿@model Shop.Northwind.MvcWebUI.Models.ProductListViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["message"]
+    </div>
+}
+<h2>Products</h2>
+<div class="row">
+    <div class="col-md-8">
+        <form asp-controller="Home" asp-action="Index" method="post">
+            <div class="row">
+                <div class="form-group col-md-8">
+                    <input name="key" type="text" class="form-control" id="exampleInputEmail1" placeholder="search...">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-success">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4 table-responsive">
+        <page-size-change page-size="@Model.PageSize" current-category="@Model.CurrentCategory" current-page="@Model.CurrentPage"></page-size-change>
+    </div>
+</div>
+<br />
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Product Name</th>
+                <th scope="col">Units In Stock</th>
+                <th scope="col">Unit Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Products)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.UnitsInStock</td>
+                    <td>@item.UnitPrice</td>
+                    <td class="text-right"><a class="btn btn-sm btn-success" asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.ProductId">Add to cart</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="overflow">
+    <product-list-pager current-category="@Model.CurrentCategory" current-page="@Model.CurrentPage" page-count="@Model.PageCount" page-size="@Model.PageSize"></product-list-pager>
+</div>

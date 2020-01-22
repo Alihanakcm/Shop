@@ -1,0 +1,11 @@
+﻿@model Shop.Northwind.MvcWebUI.UserDetailsViewModel
+<div class="dropdown-menu justify-content-end" aria-labelledby="navbarDropdown">
+    @if (!String.IsNullOrEmpty(Model.Username))
+    {
+        <a>Welcome</a>
+        <a>@Model.Username</a>
+    }
+    <div class="dropdown-divider"></div>
+
+    <a class="dropdown-item" asp-controller="Account" asp-action="LogOff">Log out</a>
+</div>
