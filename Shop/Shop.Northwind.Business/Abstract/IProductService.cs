@@ -12,6 +12,6 @@ namespace Shop.Northwind.Business.Abstract
         List<Product> GetbyCategory(int category);
         List<Product> GetByKey(string key);
         Product GetById(int productId);
-        List<ProductList> GetListView();
+        List<ProductList> GetProductDetails();
     }
 }

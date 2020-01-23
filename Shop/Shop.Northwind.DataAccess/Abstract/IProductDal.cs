@@ -6,6 +6,6 @@ namespace Shop.Northwind.DataAccess.Abstract
 {
     public interface IProductDal : IEntityRepository<Product>
     {
-        List<ProductList> GetByView();
+        List<ProductList> GetProductWithDetails();
     }
 }

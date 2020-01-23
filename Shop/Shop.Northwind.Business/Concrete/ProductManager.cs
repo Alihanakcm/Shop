@@ -49,9 +49,9 @@ namespace Shop.Northwind.Business.Concrete
             return _productDal.Get(p => p.ProductId == productId);
         }
 
-        public List<ProductList> GetListView()
+        public List<ProductList> GetProductDetails()
         {
-            return _productDal.GetByView();
+            return _productDal.GetProductWithDetails();
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Shop.Northwind.MvcWebUI.Areas.Admin.Controllers
         {
             ProductListViewModel model = new ProductListViewModel
             {
-                GetListView = _productService.GetListView()
+                GetListView = _productService.GetProductDetails()
             };
             return View(model);
         }
